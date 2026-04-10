@@ -1,7 +1,6 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
-  "extends": ["config:recommended"],
-  "dependencyDashboardApproval": false,
+  "extends": ["config:base"],
   "gitIgnoredAuthors": ["githubaction@githubaction.com"],
   "prConcurrentLimit": 1,
   "branchConcurrentLimit": 1,
