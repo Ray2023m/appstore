@@ -35,6 +35,8 @@ sudo chown root:root /opt/1panel/task/api-config/api.conf
 ```bash
 
 2. 1Panel 面板---＞计划任务---＞创建脚本
+
+```bash
 #!/bin/bash
 set -euo pipefail
 
