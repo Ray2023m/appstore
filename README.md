@@ -45,7 +45,7 @@ set -euo pipefail
 CONF_FILE="/opt/1panel/task/api-config/api.conf"
 APP_DIR="/opt/1panel/resource/apps/local"
 TMP_DIR="/tmp/1panel_appstore_tmp"
-GIT_REPO="https://github.com/Ray2023m/1Panel-appstore.git"
+GIT_REPO="https://github.com/Ray2023m/appstore.git"
 
 # 颜色定义
 GREEN='\033[0;32m'
