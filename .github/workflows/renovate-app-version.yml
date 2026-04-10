@@ -147,7 +147,7 @@ jobs:
                 continue
               fi
 
-              git commit -m "[auto-version-bump] 📈将应用 $app_name 的版本从 $old_version 升级到 $new_version" --no-verify
+              git commit -m "📈将应用 $app_name 的版本从 $old_version 升级到 $new_version" --no-verify
             fi
           done
 
