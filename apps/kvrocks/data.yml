@@ -1,0 +1,31 @@
+name: Kvrocks
+tags:
+    - 数据库
+title: 基于 RocksDB 的高性能 Redis 兼容数据库
+description: 基于 RocksDB 的高性能 Redis 兼容数据库
+additionalProperties:
+    key: kvrocks
+    name: Kvrocks
+    tags:
+      - Database
+    shortDescZh: 高性能的 Redis 兼容键值数据库
+    shortDescEn: High-performance Redis-compatible key-value database
+    description:
+        en: A high-performance key-value database compatible with Redis protocol, built on RocksDB
+        ja: RocksDB 上に構築された Redis プロトコル互換の高性能キー・バリューデータベース
+        ms: Pangkalan data nilai-kunci berprestasi tinggi serasi dengan protokol Redis, dibina atas RocksDB
+        pt-br: Banco de dados chave-valor de alto desempenho compatível com o protocolo Redis, baseado em RocksDB
+        ru: Высокопроизводительная база данных ключ-значение, совместимая с протоколом Redis, построенная на RocksDB
+        ko: RocksDB 기반의 Redis 프로토콜 호환 고성능 키-값 데이터베이스
+        zh-hant: 基於 RocksDB 的高性能 Redis 相容鍵值資料庫
+        zh: 基于 RocksDB 的高性能 Redis 兼容数据库
+    type: runtime
+    crossVersionUpdate: false
+    limit: 0
+    recommend: 10
+    website: https://kvrocks.apache.org/
+    github: https://github.com/apache/kvrocks
+    document: https://kvrocks.apache.org/docs/
+    architectures:
+      - amd64
+      - arm64
