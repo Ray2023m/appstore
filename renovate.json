@@ -2,8 +2,6 @@
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "extends": ["config:recommended"],
   "gitIgnoredAuthors": ["githubaction@githubaction.com"],
-  "prConcurrentLimit": 1,
-  "branchConcurrentLimit": 1,
   "rebaseWhen": "never",
   "prCreation": "immediate",
   "packageRules": [
