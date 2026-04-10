@@ -4,7 +4,7 @@
 
 ![](https://cdn.jsdelivr.net/gh/xiaoY233/PicList@main/public/assets/MoonTV.png)
 
-![](https://img.shields.io/badge/Copyright-arch3rPro-ff9800?style=flat&logo=github&logoColor=white)
+
 
 ## ✨ 功能特性
 
