@@ -1,0 +1,45 @@
+additionalProperties:
+  formFields:
+    - default: "40294"
+      edit: true
+      envKey: PANEL_APP_PORT_HTTP
+      labelEn: Port
+      labelZh: 端口
+      required: true
+      rule: paramPort
+      type: number
+    - default: "./data"
+      edit: true
+      envKey: DATA_PATH
+      labelEn: Data folder path
+      labelZh: 数据文件夹路径
+      required: true
+      type: text
+    - default: "0"
+      edit: true
+      envKey: PUID
+      labelEn: User ID
+      labelZh: 用户 ID
+      required: true
+      type: number
+    - default: "0"
+      edit: true
+      envKey: PGID
+      labelEn: Group ID
+      labelZh: 组 ID
+      required: true
+      type: number
+    - default: "Asia/Shanghai"
+      edit: true
+      envKey: TIME_ZONE
+      labelEn: Time Zone
+      labelZh: 时区
+      required: true
+      type: text
+    - default: "30s"
+      edit: true
+      envKey: STOP_GRACE_PERIOD
+      labelEn: Stop Grace Period
+      labelZh: 停止宽限期
+      required: true
+      type: text

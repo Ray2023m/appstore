@@ -1,0 +1,19 @@
+name: PeerBanHelper
+tags:
+  - 实用工具
+title: BT 客户端反恶意吸血工具
+description: BT 客户端反恶意吸血工具
+additionalProperties:
+  key: peerbanhelper
+  name: PeerBanHelper
+  tags:
+    - Tool
+  shortDescZh: BT 客户端反恶意吸血工具
+  shortDescEn: BitTorrent client anti malicious leech tool
+  type: tool
+  crossVersionUpdate: true
+  limit: 0
+  recommend: 0
+  website: https://pbh-btn.github.io/pbh-docs
+  github: https://github.com/PBH-BTN/PeerBanHelper
+  document: https://pbh-btn.github.io/pbh-docs
