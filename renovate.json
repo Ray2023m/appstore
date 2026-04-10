@@ -1,11 +1,10 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "extends": ["config:recommended"],
+  "dependencyDashboardApproval": false,
   "gitIgnoredAuthors": ["githubaction@githubaction.com"],
   "rebaseWhen": "never",
   "prCreation": "immediate",
-  "prConcurrentLimit": 1,
-  "branchConcurrentLimit": 1,
   "packageRules": [
     {
       "matchManagers": ["github-actions"],
