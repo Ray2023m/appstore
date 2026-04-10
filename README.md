@@ -14,7 +14,7 @@
 ---
 ### 使用方法
 #### 📋 添加脚本到 1Panel 计划任务及自动刷新本地应用
-1.打开服务器本地终端:
+1️⃣.打开服务器本地终端:
 ```bash
 变量创建
 # 创建配置文件夹
@@ -33,7 +33,7 @@ sudo chmod 600 /opt/1panel/task/api-config/api.conf
 sudo chown root:root /opt/1panel/task/api-config/api.conf
 ```
 
-2. 1Panel 面板---＞计划任务---＞创建脚本
+2️⃣. 1Panel 面板---＞计划任务---＞创建脚本
 
 ```bash
 
