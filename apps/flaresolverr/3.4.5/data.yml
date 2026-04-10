@@ -1,0 +1,102 @@
+additionalProperties:
+  formFields:
+    - default: "8191"
+      edit: true
+      envKey: PANEL_APP_PORT_HTTP
+      labelEn: Port
+      labelZh: 端口
+      required: true
+      rule: paramPort
+      type: number
+    - default: "info"
+      edit: true
+      envKey: LOG_LEVEL
+      labelEn: Log Level
+      labelZh: 日志级别
+      required: true
+      type: select
+      values:
+        - label: DEBUG
+          value: "debug"
+        - label: INFO
+          value: "info"
+        - label: ERROR
+          value: "error"
+    - default: "false"
+      edit: true
+      envKey: LOG_HTML
+      labelEn: Log HTML
+      labelZh: 日志 HTML 输出
+      required: true
+      type: select
+      values:
+        - label: "True"
+          value: "true"
+        - label: "False"
+          value: "false"
+    - default: "none"
+      edit: true
+      envKey: CAPTCHA_SOLVER
+      labelEn: CAPTCHA Solver
+      labelZh: CAPTCHA 解密器
+      required: true
+      type: text
+    - default: "Asia/Shanghai"
+      edit: true
+      envKey: TIME_ZONE
+      labelEn: Time Zone
+      labelZh: 时区
+      required: true
+      type: text
+    - default: "none"
+      edit: true
+      envKey: LANG
+      labelEn: Language
+      labelZh: 语言
+      required: true
+      type: text
+    - default: "true"
+      edit: true
+      envKey: HEADLESS
+      labelEn: Headless Mode
+      labelZh: 无头模式
+      required: true
+      type: select
+      values:
+        - label: "True"
+          value: "true"
+        - label: "False"
+          value: "false"
+    - default: "40000"
+      edit: true
+      envKey: BROWSER_TIMEOUT
+      labelEn: Browser Timeout
+      labelZh: 浏览器超时时间
+      required: true
+      type: number
+    - default: "https://www.google.com"
+      edit: true
+      envKey: TEST_URL
+      labelEn: Test URL
+      labelZh: 测试 URL
+      required: true
+      type: text
+    - default: "0.0.0.0"
+      edit: true
+      envKey: HOST
+      labelEn: Host
+      labelZh: 监听地址
+      required: true
+      type: text
+    - default: "false"
+      edit: true
+      envKey: PROMETHEUS_ENABLED
+      labelEn: Prometheus Enabled
+      labelZh: 启用 Prometheus
+      required: true
+      type: select
+      values:
+        - label: "True"
+          value: "true"
+        - label: "False"
+          value: "false"

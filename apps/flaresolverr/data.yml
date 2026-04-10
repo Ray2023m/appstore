@@ -1,0 +1,19 @@
+name: FlareSolverr
+tags:
+  - 开发工具
+title: 绕过 Cloudflare 保护的代理服务器
+description: 绕过 Cloudflare 保护的代理服务器
+additionalProperties:
+  key: flaresolverr
+  name: FlareSolverr
+  tags:
+    - DevTool
+  shortDescZh: 绕过 Cloudflare 保护的代理服务器
+  shortDescEn: Proxy server to bypass Cloudflare protection
+  type: tool
+  crossVersionUpdate: true
+  limit: 0
+  recommend: 0
+  website: https://github.com/FlareSolverr/FlareSolverr
+  github: https://github.com/FlareSolverr/FlareSolverr
+  document: https://github.com/FlareSolverr/FlareSolverr
