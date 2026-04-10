@@ -1,0 +1,29 @@
+services:
+  moontv:
+    image: ghcr.io/szemeng76/lunatv:6.2.0
+    container_name: ${CONTAINER_NAME}
+    restart: always
+
+    labels:
+      createdBy: "Apps"
+    ports:
+      - ${PANEL_APP_PORT_HTTP}:3000
+
+    environment:
+      USERNAME: ${MOONTV_ADMIN_USER}
+      PASSWORD: ${MOONTV_ADMIN_PASSWORD}
+
+      NEXT_PUBLIC_STORAGE_TYPE: ${MOONTV_STORAGE_TYPE}
+      KVROCKS_URL: ${KVROCKS_CONNECT_URL}
+      REDIS_URL: ${REDIS_CONNECT_URL}
+
+      NEXT_PUBLIC_ENABLE_REGISTER: ${MOONTV_ENABLE_REGISTER}
+      NEXT_PUBLIC_SITE_NAME: ${MOONTV_SITE_NAME}
+      ANNOUNCEMENT: ${MOONTV_ANNOUNCEMENT}
+            
+    networks:
+      - 1panel-network
+
+networks:
+  1panel-network:
+    external: true

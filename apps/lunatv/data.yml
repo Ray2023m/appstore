@@ -1,0 +1,31 @@
+name: LunaTV
+tags:
+  - 多媒体
+title: 开箱即用的跨平台影视聚合播放器
+description: 🎬 LunaTV 是一个开箱即用的、跨平台的影视聚合播放器，支持多资源搜索、在线播放、收藏同步、播放记录等功能。
+additionalProperties:
+  key: lunatv
+  name: LunaTV
+  tags:
+    - Media
+  shortDescZh: 开箱即用的跨平台影视聚合播放器
+  shortDescEn: Out-of-the-box cross-platform video aggregation player
+  type: website
+  crossVersionUpdate: true
+  limit: 0
+  recommend: 0
+  website: https://github.com/MoonTechLab/LunaTV
+  github: https://github.com/MoonTechLab/LunaTV
+  document: https://github.com/MoonTechLab/LunaTV#readme
+  description:
+    en: 🎬 MoonTV is an out-of-the-box, cross-platform video aggregation player built with Next.js 14, Tailwind CSS, and TypeScript. It supports multi-source search, online playback, sync of favorites and watch history, local/cloud storage, and more.
+    zh: 🎬 MoonTV 是一个开箱即用的、跨平台的影视聚合播放器，基于 Next.js 14 + Tailwind CSS + TypeScript 构建，支持多资源搜索、在线播放、收藏同步、播放记录、本地/云端存储等功能。
+    zh-Hant: 🎬 MoonTV 是一個開箱即用的、跨平台的影視聚合播放器，基於 Next.js 14 + Tailwind CSS + TypeScript 構建，支援多資源搜尋、線上播放、收藏同步、播放記錄、本地/雲端儲存等功能。
+    ja: 🎬 MoonTV は、Next.js 14 + Tailwind CSS + TypeScript で構築された、すぐに使えるクロスプラットフォーム動画アグリゲーションプレーヤーです。複数ソース検索、オンライン再生、お気に入りや視聴履歴の同期、ローカル/クラウド保存などをサポートします。
+    ms: 🎬 MoonTV ialah pemain agregasi video merentas platform yang siap digunakan, dibina dengan Next.js 14, Tailwind CSS, dan TypeScript. Menyokong carian berbilang sumber, main balik dalam talian, penyelarasan kegemaran dan sejarah tontonan, serta storan tempatan/awan.
+    pt-br: 🎬 MoonTV é um reprodutor de agregação de vídeos multiplataforma pronto para uso, construído com Next.js 14, Tailwind CSS e TypeScript. Suporta pesquisa multi-fonte, reprodução online, sincronização de favoritos e histórico, armazenamento local/nuvem e muito mais.
+    ru: 🎬 MoonTV — это готовый к использованию кроссплатформенный агрегатор видео, построенный на Next.js 14, Tailwind CSS и TypeScript. Поддерживает многопоисковый режим, онлайн-воспроизведение, синхронизацию избранного и истории просмотров, локальное/облачное хранение и многое другое.
+    ko: 🎬 MoonTV는 Next.js 14, Tailwind CSS, TypeScript로 제작된 즉시 사용 가능한 크로스플랫폼 동영상 통합 플레이어입니다. 다중 소스 검색, 온라인 재생, 즐겨찾기 및 시청 기록 동기화, 로컬/클라우드 저장 등을 지원합니다.
+  architectures:
+    - amd64
+    - arm64
