@@ -1,0 +1,93 @@
+additionalProperties:
+  formFields:
+    - default: tskey-auth-ab1CDE2CNTRL-0123456789abcdef
+      edit: true
+      envKey: TS_AUTHKEY
+      labelEn: Tailscale Auth Key
+      labelZh: Tailscale 认证密钥
+      required: true
+      type: text
+    - default: 192.168.1.0/24,10.0.0.0/16
+      edit: true
+      envKey: TS_ROUTES
+      labelEn: Advertise Subnet Routes
+      labelZh: 广播子网路由
+      required: true
+      type: text
+    - default: 'false'
+      edit: true
+      envKey: TS_ACCEPT_DNS
+      labelEn: Accept DNS configuration (true/false)
+      labelZh: 是否接受 DNS 配置 (true/false)
+      required: false
+      type: text
+    - default: 'false'
+      edit: true
+      envKey: TS_AUTH_ONCE
+      labelEn: Attempt to log in once (true/false)
+      labelZh: 尝试仅登录一次 (true/false)
+      required: false
+      type: text
+    - default: ''
+      edit: true
+      envKey: TS_DEST_IP
+      labelEn: Destination IP
+      labelZh: 目标 IP
+      required: false
+      type: text
+    - default: tailscale
+      edit: true
+      envKey: TS_KUBE_SECRET
+      labelEn: Kubernetes Secret Name
+      labelZh: Kubernetes 密钥名称
+      required: false
+      type: text
+    - default: my-tailscale-node
+      edit: true
+      envKey: TS_HOSTNAME
+      labelEn: Node Hostname
+      labelZh: 节点主机名
+      required: false
+      type: text
+    - default: ''
+      edit: true
+      envKey: TS_OUTBOUND_HTTP_PROXY_LISTEN
+      labelEn: HTTP Proxy Address and Port (127.0.0.1:1081)
+      labelZh: HTTP代理地址和端口 (127.0.0.1:1081)
+      required: false
+      type: text
+    - default: /var/run/tailscale/tailscaled.sock
+      edit: true
+      envKey: TS_SOCKET
+      labelEn: Tailscale Socket Path
+      labelZh: Tailscale Socket 路径
+      required: false
+      type: text
+    - default: ''
+      edit: true
+      envKey: TS_SOCKS5_SERVER
+      labelEn: SOCKS5 Proxy Address and Port (127.0.0.1:1080)
+      labelZh: SOCKS5代理地址和端口 (127.0.0.1:1080)
+      required: false
+      type: text
+    - default: /var/lib/tailscale
+      edit: true
+      envKey: TS_STATE_DIR
+      labelEn: Tailscale State Directory
+      labelZh: Tailscale 状态目录
+      required: false
+      type: text
+    - default: 'true'
+      edit: true
+      envKey: TS_USERSPACE
+      labelEn: Enable Userspace Networking (true/false)
+      labelZh: 启用用户空间网络 (true/false)
+      required: false
+      type: text
+    - default: ''
+      edit: true
+      envKey: TS_EXTRA_ARGS
+      labelEn: Any other flags for tailscaled (--login-server=https://login.example.com)
+      labelZh: 更多命令参数 (--login-server=https://login.example.com)
+      required: false
+      type: text
