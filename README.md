@@ -117,5 +117,11 @@ fi
 
 log_info "✨ 所有操作已完成！"
 ```
+##致谢
+由于本人对于代码相关都是业余水平,本项目参考了很多三方商店,在此表示感谢🙏
+ [willow-god](https://github.com/willow-god/appstore)
+ [arch3rPro](https://github.com/arch3rPro/1Panel-Appstore)
+ [QYG2297248353](https://github.com/QYG2297248353/appstore-1panel)
+ 
 ### 项目统计
 ![Alt](https://repobeats.axiom.co/api/embed/15348dc305f26710da5ba1f38b3504ea1955ca78.svg "Repobeats analytics image")
