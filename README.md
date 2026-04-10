@@ -5,7 +5,7 @@
 > 本项目旨在补充官方 App Store，适配个人常用需求场景。
 
 ---
-### 1Panel 添加第三方应用仓库方法
+### 1Panel 制作第三方应用
 
-参考官方文档：[📚 如何添加第三方应用仓库](https://github.com/1Panel-dev/appstore/wiki/%E5%A6%82%E4%BD%95%E6%8F%90%E4%BA%A4%E8%87%AA%E5%B7%B1%E6%83%B3%E8%A6%81%E7%9A%84%E5%BA%94%E7%94%A8)
+参考官方文档：[📚 如何制作第三方应用](https://github.com/1Panel-dev/appstore/wiki/%E5%A6%82%E4%BD%95%E6%8F%90%E4%BA%A4%E8%87%AA%E5%B7%B1%E6%83%B3%E8%A6%81%E7%9A%84%E5%BA%94%E7%94%A8)
 ---
