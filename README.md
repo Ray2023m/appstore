@@ -32,11 +32,12 @@ echo "127.0.0.1 你的面板绑定域名" | sudo tee -a /etc/hosts
 sudo chmod 600 /opt/1panel/task/api-config/api.conf
 sudo chown root:root /opt/1panel/task/api-config/api.conf
 ```
-```bash
 
 2. 1Panel 面板---＞计划任务---＞创建脚本
 
 ```bash
+
+
 #!/bin/bash
 set -euo pipefail
 
