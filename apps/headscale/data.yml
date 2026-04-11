@@ -1,0 +1,19 @@
+name: Headscale
+tags:
+  - 工具
+title: Tailscale 控制服务器的开源自托管实现
+description: Tailscale 控制服务器的开源自托管实现
+additionalProperties:
+  key: headscale
+  name: Headscale
+  tags:
+    - Tool
+  shortDescZh: Tailscale 控制服务器的开源自托管实现
+  shortDescEn: An open source, self-hosted implementation of the Tailscale control server
+  type: tool
+  crossVersionUpdate: true
+  limit: 0
+  recommend: 0
+  website: https://headscale.net
+  github: https://github.com/juanfont/headscale
+  document: https://headscale.net
