@@ -126,4 +126,4 @@ log_info "✨ 所有操作已完成！"
  [QYG2297248353](https://github.com/QYG2297248353/appstore-1panel) ;
  
 ### 项目统计
-![Alt](https://repobeats.axiom.co/api/embed/15348dc305f26710da5ba1f38b3504ea1955ca78.svg "Repobeats analytics image")
+![Alt](https://repobeats.axiom.co/api/embed/7d4f68719495216c0db6793e71b26c5ca955463c.svg "Repobeats analytics image")
