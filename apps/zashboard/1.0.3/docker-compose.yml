@@ -1,6 +1,6 @@
 services:
   zashboard:
-    image: ghcr.io/ray2023m/clashboard:v1.0.1
+    image: ghcr.io/ray2023m/clashboard:v1.0.3
     container_name: ${CONTAINER_NAME}
     ports:
       - ${PANEL_APP_PORT_HTTP}:2048
