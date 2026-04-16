@@ -1,0 +1,23 @@
+name: zashboard
+tags:
+  - 实用工具
+title: 基于开源 zashboard 二次开发,clash 控制面板.
+description:
+  en: zashboard
+  zh: 基于开源 zashboard 二次开发,clash 控制面板.
+additionalProperties:
+  key: zashboard
+  name: zashboard
+  tags:
+    - Tool
+  shortDescZh: 基于开源 zashboard 二次开发,clash 控制面板.
+  shortDescEn: zashboard
+  type: website
+  crossVersionUpdate: true
+  limit: 0
+  website: https://example.com
+  github: https://github.com/user/repo
+  document: https://docs.example.com
+  architectures:
+    - amd64
+    - arm64
