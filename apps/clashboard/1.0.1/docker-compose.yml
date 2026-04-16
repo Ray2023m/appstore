@@ -1,5 +1,5 @@
 services:
-  zash:
+  clashboard:
     image: ghcr.io/ray2023m/clashboard:v1.0.1
     container_name: ${CONTAINER_NAME}
     ports:
