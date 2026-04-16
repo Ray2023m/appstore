@@ -1,9 +1,9 @@
 services:
-  clashboard:
-    image: ghcr.io/ray2023m/clashboard:v1.0.1
+  zashboard:
+    image: ghcr.io/ray2023m/clashboard:v1.0.0
     container_name: ${CONTAINER_NAME}
     ports:
-      - ${PANEL_APP_PORT_HTTP}:6648
+      - ${PANEL_APP_PORT_HTTP}:2048
     volumes:
       - ./data:/app/data
     restart: unless-stopped
