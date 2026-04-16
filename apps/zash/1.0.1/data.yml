@@ -1,6 +1,6 @@
 additionalProperties:
   formFields:
-    - default: "2048"
+    - default: "6648"
       envKey: PANEL_APP_PORT_HTTP
       required: true
       type: number
