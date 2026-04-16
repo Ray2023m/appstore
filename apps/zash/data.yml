@@ -1,17 +1,17 @@
-name: zash
+name: clashboard
 tags:
   - 实用工具
-title: 基于开源 zashboard 二次开发,clash 控制面板.
+title: 基于开源 zashboard 二次开发,clashbaord 控制面板.
 description:
-  en: zashboard
-  zh: 基于开源 zashboard 二次开发,clash 控制面板.
+  en: clashboard
+  zh: 基于开源 zashboard 二次开发,clashboard 控制面板.
 additionalProperties:
-  key: zashboard
-  name: zashboard
+  key: clashboard
+  name: clashboard
   tags:
     - Tool
-  shortDescZh: 基于开源 zashboard 二次开发,clash 控制面板.
-  shortDescEn: zashboard
+  shortDescZh: 基于开源 zashboard 二次开发,clashboard 控制面板.
+  shortDescEn: clashboard
   type: website
   crossVersionUpdate: true
   limit: 0
