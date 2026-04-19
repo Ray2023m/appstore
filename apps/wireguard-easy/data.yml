@@ -1,0 +1,19 @@
+name: WireGuard Easy
+tags:
+  - 实用工具
+title: 运行 WireGuard VPN + 基于 Web 的管理 UI 的最简单方法
+description: 运行 WireGuard VPN + 基于 Web 的管理 UI 的最简单方法
+additionalProperties:
+  key: wireguard-easy
+  name: WireGuard Easy
+  tags:
+    - Tool
+  shortDescZh: 运行 WireGuard VPN + 基于 Web 的管理 UI 的最简单方法
+  shortDescEn: The easiest way to run WireGuard VPN + Web-based Admin UI
+  type: tool
+  crossVersionUpdate: true
+  limit: 0
+  recommend: 0
+  website: https://www.wireguard.com/
+  github: https://github.com/wg-easy/wg-easy
+  document: https://www.wireguard.com/

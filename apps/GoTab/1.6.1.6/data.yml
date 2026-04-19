@@ -1,0 +1,10 @@
+additionalProperties:
+  formFields:
+    - default: "5880"
+      envKey: PANEL_APP_PORT_HTTP
+      required: true
+      type: number
+      labelEn: Port
+      labelZh: 端口
+      edit: true
+      rule: paramPort

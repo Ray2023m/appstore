@@ -1,0 +1,29 @@
+name: GoTab
+tags:
+  - 实用工具
+title: GoTab
+  新标签页是一款简约美观、功能强大的浏览器起始主页，极致的个性化配置，满足您的各项要求，提高工作效率！支持创建/分享个人导航页，方便快捷的美化您的桌面，提升浏览器主页与
+  newtab 新标签页使用体验！支持 docker 一键部署！免费、美观、超多配置项！
+description:
+  en: GoTab
+  zh: GoTab
+    新标签页是一款简约美观、功能强大的浏览器起始主页，极致的个性化配置，满足您的各项要求，提高工作效率！支持创建/分享个人导航页，方便快捷的美化您的桌面，提升浏览器主页与
+    newtab 新标签页使用体验！支持 docker 一键部署！免费、美观、超多配置项！
+additionalProperties:
+  key: GoTab
+  name: GoTab
+  tags:
+    - Tool
+  shortDescZh: GoTab
+    新标签页是一款简约美观、功能强大的浏览器起始主页，极致的个性化配置，满足您的各项要求，提高工作效率！支持创建/分享个人导航页，方便快捷的美化您的桌面，提升浏览器主页与
+    newtab 新标签页使用体验！支持 docker 一键部署！免费、美观、超多配置项！
+  shortDescEn: GoTab
+  type: website
+  crossVersionUpdate: true
+  limit: 0
+  website: https://www.gotab.cn/
+  github: https://github.com/dengxiwang/gotab-personal
+  document: https://www.gotab.cn/
+  architectures:
+    - amd64
+    - arm64

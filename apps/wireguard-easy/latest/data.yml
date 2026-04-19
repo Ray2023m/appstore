@@ -1,0 +1,74 @@
+additionalProperties:
+  formFields:
+    - default: "40074"
+      edit: true
+      envKey: PANEL_APP_PORT_HTTP
+      labelEn: WebUI Port
+      labelZh: 网页端口
+      required: true
+      rule: paramPort
+      type: number
+    - default: "51820"
+      edit: true
+      envKey: WIREGUARD_PORT
+      labelEn: Wireguard port
+      labelZh: Wireguard 端口
+      required: true
+      rule: paramPort
+      type: number
+    - default: "./data"
+      edit: true
+      envKey: DATA_PATH
+      labelEn: Data folder path
+      labelZh: 数据文件夹路径
+      required: true
+      type: text
+    - default: "$$2a$$12$$0AL3hGeedv8fOfsNtfZY5OO3mMvBqlnZA8QmeBGfWPAQEoZ7LZ/7a"
+      edit: true
+      envKey: PASSWORD_HASH
+      labelEn: Webui password hash (Note to check the documentation for instructions, the default is `PAssw00rd`)
+      labelZh: 网页密码 hash (注意查看说明文档，默认为`PAssw00rd`)
+      required: true
+      type: password
+    - default: "172.17.0.1"
+      edit: true
+      envKey: HOST_ADDRESS
+      labelEn: Host address (must change item)
+      labelZh: 本机地址(必改项)
+      required: true
+      type: text
+    - default: "10.0.8.x"
+      edit: true
+      envKey: WG_DEFAULT_ADDRESS
+      labelEn: Default Wireguard Segment
+      labelZh: 默认 Wireguard 网段
+      required: true
+      type: text
+    - default: "119.29.29.29,1.1.1.1"
+      edit: true
+      envKey: WG_DEFAULT_DNS
+      labelEn: Default Wireguard DNS
+      labelZh: 默认 Wireguard DNS
+      required: true
+      type: text
+    - default: "1420"
+      edit: true
+      envKey: WG_MTU
+      labelEn: Wireguard MTU
+      labelZh: Wireguard MTU
+      required: true
+      type: number
+    - default: "10.0.8.0/24"
+      edit: true
+      envKey: WG_ALLOWED_IPS
+      labelEn: Wireguard Allowed IPs
+      labelZh: Wireguard 允许的 IP 段
+      required: true
+      type: text
+    - default: "25"
+      edit: true
+      envKey: WG_PERSISTENT_KEEPALIVE
+      labelEn: Wireguard Persistent Keepalive
+      labelZh: Wireguard 保活间隔
+      required: true
+      type: number
