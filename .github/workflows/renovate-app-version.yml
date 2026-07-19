@@ -32,7 +32,7 @@ jobs:
       - name: Check if triggered by self (prevent circular trigger)
         id: check-circular
         run: |
-          # 检查最后一个 commit 的 author，如果是自己则跳过
+          # 检查最后一个 commit 的 author，如果是自己则跳过#
           last_author=$(git log -1 --format='%an')
           last_message=$(git log -1 --format='%s')
           
