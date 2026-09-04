@@ -1,6 +1,6 @@
 services:
   sub-store:
-    image: xream/sub-store:2.37.2
+    image: xream/sub-store:2.38.1
     container_name: ${CONTAINER_NAME}
     restart: always
     networks:
