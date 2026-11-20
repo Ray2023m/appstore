@@ -29,6 +29,13 @@ additionalProperties:
       labelZh: 前端后端路径
       required: true
       type: text
+    - default: "https://substore.com"
+      edit: true
+      envKey: SUB_STORE_CORS_ALLOWED_ORIGINS
+      labelEn: Cors allowed origins
+      labelZh: 前端域名
+      required: true
+      type: text
     - default: "./data"
       edit: true
       envKey: DATA_PATH
