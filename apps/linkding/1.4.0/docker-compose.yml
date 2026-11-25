@@ -1,7 +1,7 @@
 services:
   linkding:
     container_name: ${CONTAINER_NAME}
-    image: woohoodai/linkding-cn:1.4.0
+    image: woohoodai/linkding-cn:v1.4.0
     restart: always
     networks:
       - 1panel-network
