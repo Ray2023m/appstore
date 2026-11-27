@@ -9,7 +9,7 @@ services:
       - "${PANEL_APP_PORT_HTTP}:3000"
     env_file: 
       - .env
-      - ./custom.env
+      - .custom.env
     volumes:
       - ./config:/app/config
       - ./icons:/app/public/icons
